@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-c483b6a1
+subnet_id: subnet-509ea035
+ec2_keypair: JohnKelly
+instance_count: 2
+db_subnets:
+  - subnet-509ea035
+  - subnet-69abf71e
+db_availability_zone: us-west-2a
+db_username: todobackend
